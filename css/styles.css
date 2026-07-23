@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(74, 182, 185);
+}
+h1{
+    font-size: 80px;
+}
+
+/* Layout Style */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(74, 182, 185);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(253, 176, 31);
+    font-size: 80px;
+    text-align: center;
+    padding: 5%;
+}
+
+nav{
+    background-color: rgb(81, 238, 107);
+    float: left;
+    height: 400px;
+    width: 50%;
+    font-size: 40px;
+    padding: 20px;
+}
+
+article{
+    background-color: rgb(230, 137, 238);
+    height: 400px;
+    font-size: 30px;
+    padding: 20px;
+}
+
+footer{
+    background-color: rgb(225, 252, 76);
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width=600px){
+    nav , article{
+        width: 100%;
+        height: auto;
+    }
+    header,footer{
+        font-size: 60px;
+    }
+}
